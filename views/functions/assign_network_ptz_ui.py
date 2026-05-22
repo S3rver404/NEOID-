@@ -91,7 +91,7 @@ class AssignNetworkPTZIU(object):
         add_face.setWindowTitle(_translate("assign_net_ptz", "Assign Network PTZ"))
         self.allow_network_control.setText(
             _translate("allow_network_control", "VISCA Login for " + self.camera_widget.objectName() + ":"))
-        self.port_line.setPlaceholderText(_translate("port_line", "Enter Port (Default=52381)"))
+        self.port_line.setPlaceholderText(_translate("port_line", "Enter Port (Default=1259)"))
         self.submit.setText(_translate("submit", "Submit"))
         self.cancel_btn.setText(_translate("cancel_btn", "Cancel"))
 

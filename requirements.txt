@@ -14,4 +14,5 @@ visca_over_ip
 face_recognition
 torch
 torchvision
+ultralytics>=8.0.0
 # conda install -c conda-forge dlib
